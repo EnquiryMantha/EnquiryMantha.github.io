@@ -12,9 +12,9 @@ const NavigationBar = () => {
         <Nav>
           {/* <Nav.Link as={Link} to="/">Home</Nav.Link> */}
           <div style={{display:'flex',justifyContent:'flex-end', width:'100%'}}>
-          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="../assets/linkedin.png" alt="" style={{width:'30px'}}/></Nav.Link>
-          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="../assets/FB.png" alt="" style={{width:'30px'}}/></Nav.Link>
-          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="../assets/Instagram.png" alt="" style={{width:'30px'}}/></Nav.Link>
+          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="assets/linkedin.png" alt="" style={{width:'30px'}}/></Nav.Link>
+          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="assets/FB.png" alt="" style={{width:'30px'}}/></Nav.Link>
+          <Nav.Link as={Link} to="https://www.linkedin.com/in/jadhavrshubham/"><img src="assets/Instagram.png" alt="" style={{width:'30px'}}/></Nav.Link>
           </div>
         </Nav>
       </Navbar.Collapse>
