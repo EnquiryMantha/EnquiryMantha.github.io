@@ -1,0 +1,56 @@
+.maincontainer{
+    margin: 0.5rem 1rem;
+}
+
+.intro_screen{
+    background-image: url("../assets/intropage_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.aboutus{
+    margin-top: 2vh;
+}
+
+.ourteam{
+    margin: 2vh;
+}
+
+.ourteam img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.ourteam .card{
+    width:100%;
+    border-radius:25px;
+    box-shadow:0px 4px 4px 0px rgb(0,0,0,0.4);
+    margin: 2vh;
+    background-color: var(--primary-dark);
+}
+
+.services{
+    margin: 2vh;
+}
+
+.connectwithus{
+    background-color: #208b0c ;
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .intro_screen{
+        background-image: url("../assets/intropage_img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        width: 100%;
+    }
+
+}

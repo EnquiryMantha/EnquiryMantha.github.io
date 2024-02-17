@@ -1,0 +1,38 @@
+.app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers content horizontally */
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  h4{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  h5{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  h6{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    font-weight: 400;
+  }

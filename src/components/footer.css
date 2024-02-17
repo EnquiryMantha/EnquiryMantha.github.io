@@ -1,0 +1,16 @@
+.footer{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-height: fit-content;
+    margin-top: 20vh;
+    background-color: var(--primary-light);
+}
+
+.footer .col{
+    text-align: left;
+}
+
+.footer .container{
+    padding: 0px;
+    margin: 0px;
+}
