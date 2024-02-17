@@ -19,7 +19,7 @@ const Home = () => {
                 <span style={{fontWeight:'600'}}>Financial Analysis</span><br/>
             
             </p>
-            <button className='connectwithus'> <a style={{textDecoration:'none', color:'black'}} target="_blank" href="https://api.whatsapp.com/send/?phone=9763286926&text&type=phone_number">Connect With Us  <img style={{width:'40px'}} src="assets/whatsapp.png" alt="" /></a></button>
+            <button className='connectwithus'> <a style={{textDecoration:'none', color:'black'}} target="_blank" href="https://api.whatsapp.com/send/?phone=9763286926&text&type=phone_number">Connect With Us  <img style={{width:'40px'}} src="src/assets/whatsapp.png" alt="" /></a></button>
         </div>
 
             <div className='aboutus'>
@@ -46,7 +46,7 @@ const Home = () => {
                 <h2 >Our Team</h2>
                 <Card>
                     <Row>
-                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="assets/CA.jpg" alt="" /></Col>
+                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="src/assets/CA.jpg" alt="" /></Col>
                         <Col md={8} xs={12}> 
                             <h3 style={{textAlign:'left'}}>Chartered Accountant</h3>
                             <p style={{textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida finibus orci at vehicula. Morbi 
@@ -60,7 +60,7 @@ const Home = () => {
                 </Card>
                 <Card>
                     <Row>
-                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="assets/lawyer.png" alt="" /></Col>
+                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="src/assets/lawyer.png" alt="" /></Col>
                         <Col md={8} xs={12}> 
                             <h3 style={{textAlign:'left'}}>Lawyer</h3>
                             <p style={{textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida finibus orci at vehicula. Morbi 
@@ -75,7 +75,7 @@ const Home = () => {
 
                 <Card>
                     <Row>
-                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="assets/lawyer.png" alt="" /></Col>
+                        <Col md={4} xs={12} style={{textAlign:'center'}}><img src="src/assets/lawyer.png" alt="" /></Col>
                         <Col md={8} xs={12}> 
                             <h3 style={{textAlign:'left'}}>HR</h3>
                             <p style={{textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida finibus orci at vehicula. Morbi 
