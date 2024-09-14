@@ -42,7 +42,7 @@ const Home = () => {
                     </ol>
             </div>
 
-            <div className='ourteam'>
+            {/* <div className='ourteam'>
                 <h2 >Our Team</h2>
                 <Card>
                     <Row>
@@ -86,8 +86,8 @@ const Home = () => {
                     turpis tempor egestas.</p>
                         </Col>
                     </Row>
-                </Card>
-            </div>
+                </Card> 
+            </div> */}
             <div className='services'>
                 <h2>Our services</h2>
                 <p style={{textAlign:'justify'}}>The services offered by Mantha Services were designed to simplify the lives of societies:</p>
