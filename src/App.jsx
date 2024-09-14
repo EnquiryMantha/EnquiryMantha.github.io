@@ -8,7 +8,7 @@ function App() {
     <>
     <Router>
         <Routes>
-          <Route path="/EnquiryMantha" exact element={<Home />} />
+          <Route path="" exact element={<Home />} />
           {/* <Route path="/crowdfunding" exact element={<CrowdFunding />} /> */}
           <Route path="*" element={<h1>Error 404 Page not found !!</h1>} />
         </Routes>
